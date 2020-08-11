@@ -3,7 +3,6 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ListModule } from './list/list.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
-//import { ListsService } from './list/lists.service';
 
 @Module({
   imports: [ListModule,

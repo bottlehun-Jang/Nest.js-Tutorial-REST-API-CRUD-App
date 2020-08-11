@@ -5,7 +5,7 @@ import { List } from './list.entity';
 import { UpdateResult, DeleteResult } from  'typeorm';
 
 @Injectable()
-export class ListsService {
+export class ListService {
     constructor(
         @InjectRepository(List)
         private ListRepository: Repository<List>,

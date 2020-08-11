@@ -1,11 +1,11 @@
 import { Controller, Get, NotImplementedException } from '@nestjs/common';
-import { List } from '../list.entity';
-import { ListsService } from '../lists.service';
+import { List } from './list.entity';
+import { ListService } from './list.service';
 import { Post, Put, Delete, Body, Param } from '@nestjs/common';
 
 @Controller('list')
 export class ListController {
-    constructor(private contactsService: ListsService) { }
+    constructor(private contactsService: ListService) { }
 
     @Get()
     index(): Promise<List[]> {
