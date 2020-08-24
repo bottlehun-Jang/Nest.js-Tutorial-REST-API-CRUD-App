@@ -3,7 +3,8 @@
 
 ### 소개  
 **본 CRUD API는 아래의 예제를 참고하여 구성하였습니다.  
-https://www.techiediaries.com/nestjs-tutorial-rest-api-crud/
+https://www.techiediaries.com/nestjs-tutorial-rest-api-crud/  
+
 
 Todo List를 Backend 단에서 구현하기 위한 코드.  
 #### Example  
@@ -25,6 +26,7 @@ install한 node package 를 아래에 기술합니다.
 ```  
 nest new {projectname}//nest Cli  
 npm install --save @nestjs/typeorm typeorm sqlite3  
+npm install --save @nestjs/swagger swagger-ui-express  
 ```
 
 ### RESTful 참고 Site  
